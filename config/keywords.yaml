@@ -1,0 +1,66 @@
+robotics:
+  - "robot"
+  - "autonomous"
+  #- "automated" # removed b/c false positives (automated verification)
+  #- "self" # removed b/c false positives
+  - "driving" # to capture self-driving, self driving
+  - "vehicle"
+  #- "car"
+  - "drone"
+  - "vacuum"
+  - "rover"
+  - "auv"
+  - "uav"
+  - "ugv"
+  - "usv"
+  - "agv"
+  #- "amr" # removed b/c false positives
+  - "driverless"
+  - "robotaxi"
+  - "cobot"
+  #- "multi" # removed b/c false positives # to capture multi, multi-robot, multi-agent
+  #- "agent" # removed b/c false positives # to capture agent, agents, multi-agent, multi agent
+  - "swarm"
+privacy-and-security:
+  - "priva" # to capture privacy, private, differentially private, differential privacy
+  - "secur" # to capture security, secure, secure computation
+  - "leakage"
+  - "anonym" # to capture anonymization, anonymous, anonymized
+  #- "differential" # to capture differential privacy
+  - "dp" # issue: dynamic programming != differential privacy
+  #- "mpc" # issue: multi-party computation != model predictive control
+  - "smpc"
+  #- "zkp"
+  #- "pet"
+  - "blockchain"
+  - "crypt" # to capture crypto, cryptography, cryptographic
+  - "encrypt" # to capture encrypt, encrypted, encrypting, encryption
+  - "homomorphic"
+  - "federated" # to capture federated, federate
+  - "obfuscat" # to capture obfuscation, obfuscate, obfuscated
+  - "confidenti" # to capture confidential, confidentiality
+  #- "trust" # to capture trust, trusted
+  #- "verif" # to capture verify, verification, verifiable
+  #- "complian" # to capture compliance, compliant
+  #- "regul" # to capture regulation, regulatory, regulate
+  #- "govern" # to capture governance, govern, governing
+  #- "zero" # to capture zero, zero-knowledge, zero knowledge
+  #- "knowledge" # to capture knowledge, zero-knowledge, zero knowledge
+  #- "proof" # to capture proof, zero-knowledge proof, zero knowledge proof
+  #- "integrit" # to capture integrity, integral
+  #- "authent" # to capture authenticate, authentication, authentic
+  #- "access" # to capture access, accessible
+  #- "audit" # removed b/c false positives # to capture audit, auditing, audited
+  #- "accountab" # to capture accountability, accountable
+multi-word:
+  - "multi agent"
+  - "multi robot"
+  - "multi party"
+  - "self driving"
+  - "zero knowledge"
+  - "zero knowledge proof"
+  - "differential privacy"
+  - "differentially private"
+  - "federated learning"
+  - "distributed ledger"
+  - "multi party computation"
